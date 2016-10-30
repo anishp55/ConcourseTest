@@ -1,0 +1,17 @@
+resources:
+  - name: git-repo
+    type: git
+    source:
+      uri: https://github.com/chrisumbel/ConcourseTest
+      branch: master
+
+
+jobs:
+  - name: build
+    plan:
+    - aggregate:
+      - get: git-repo
+        trigger: true
+    - task: dotnet
+      privileged: true
+      file: git-repo/pipeline/dotnet.yml

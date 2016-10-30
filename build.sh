@@ -1,4 +1,3 @@
 #!/bin/bash
-dotnet restore
+dotnet restore --packages ./packages
 dotnet build
-dotnet run

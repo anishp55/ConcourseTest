@@ -1,0 +1,15 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: microsoft/dotnet
+    tag: 1.0.0-preview2-sdk
+    
+inputs:
+  - name: build
+
+run:
+  dir: build
+  path: dotnet
+  args: [run]

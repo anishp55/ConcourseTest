@@ -11,5 +11,5 @@ inputs:
 
 run:
   dir: code
-  path: dotnet
-  args: [restore]
+  path: build.sh
+  args: []

@@ -11,5 +11,5 @@ inputs:
 
 run:
   dir: build
-  path: dotnet
-  args: [run]
+  path: ls
+  args: [-R]

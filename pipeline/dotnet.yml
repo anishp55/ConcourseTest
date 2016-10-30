@@ -10,5 +10,5 @@ inputs:
   - name: code
 
 run:
-  path: ./build.sh
+  path: tree
   args: []

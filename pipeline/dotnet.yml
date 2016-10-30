@@ -10,5 +10,10 @@ inputs:
   - name: git-repo
 
 run:
-  path: dotnet
-  args: ["restore"]
+  path: sh
+  args: 
+  - -exc
+  - |
+    dotnet restore
+    dotnet build
+    dotnet run

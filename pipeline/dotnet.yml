@@ -9,7 +9,13 @@ image_resource:
 inputs:
   - name: code
 
+outputs:
+  - name: build 
+
 run:
   dir: code
-  path: ./build.sh
-  args: []
+  path: sh
+  args:
+  - -exc
+  - |
+    ./build.sh  

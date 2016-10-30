@@ -10,4 +10,4 @@ inputs:
   - name: git-repo
 
 run:
-  path: build.sh
+  path: ../build.sh

@@ -1,2 +1,3 @@
-dotnet restore
-dotnet build
+ls -R
+#dotnet restore
+#dotnet build

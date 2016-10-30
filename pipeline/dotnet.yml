@@ -10,6 +10,5 @@ inputs:
   - name: code
 
 run:
-  dir: code
-  path: build.sh
+  path: code/build.sh
   args: []

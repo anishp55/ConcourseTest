@@ -1,4 +1,3 @@
 #!/bin/bash
-ls -R
-#dotnet restore
-#dotnet build
+dotnet restore
+dotnet build

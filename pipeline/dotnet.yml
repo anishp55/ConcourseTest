@@ -11,5 +11,5 @@ inputs:
 
 run:
   dir: code
-  path: ls
-  args: [-R]
+  path: dotnet
+  args: [restore]

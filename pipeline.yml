@@ -15,3 +15,7 @@ jobs:
     - task: dotnet
       privileged: true
       file: code/pipeline/dotnet.yml
+    - task: test
+      privileged: true
+      file: code/pipeline/test.yml
+

@@ -19,4 +19,4 @@ run:
   - -exc
   - |
     ./build.sh  
-    cp -R * ../build/
+    cp -R ../* ../build/

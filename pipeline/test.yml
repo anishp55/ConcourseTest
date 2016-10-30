@@ -11,5 +11,9 @@ inputs:
 
 run:
   dir: build
-  path: dotnet
-  args: [run]
+  path: sh
+  args: 
+  - -exc
+  - |
+    export NUGET_PACKAGES=./packages
+    dotnet run

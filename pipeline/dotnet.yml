@@ -10,5 +10,5 @@ inputs:
   - name: code
 
 run:
-  path: tree
-  args: []
+  path: ls
+  args: [-R]

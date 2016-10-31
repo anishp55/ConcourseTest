@@ -18,5 +18,7 @@ run:
   args:
   - -exc
   - |
-    ./build.sh  
+    cd src/ConcourseTest
+    ./build.sh
+    cd ..  
     cp -R * ../build/

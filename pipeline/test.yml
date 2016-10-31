@@ -10,10 +10,10 @@ inputs:
   - name: build
 
 run:
-  dir: build
+  dir: build/test/ConcourseTest.UnitTests
   path: sh
   args: 
   - -exc
   - |
     export NUGET_PACKAGES=./packages
-    dotnet run
+    dotnet test

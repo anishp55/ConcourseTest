@@ -14,7 +14,7 @@ jobs:
         trigger: true
     - task: dotnet
       privileged: true
-      file: code/pipeline/dotnet.yml
+      file: code/pipeline/compile.yml
     - task: test
       privileged: true
       file: code/pipeline/test.yml

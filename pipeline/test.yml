@@ -16,6 +16,6 @@ run:
   - -exc
   - |
     ls -R
-    export NUGET_PACKAGES=./packages
+    export NUGET_PACKAGES=../../packages
     dotnet restore
     dotnet test

@@ -19,7 +19,9 @@ run:
   - -exc
   - |
     cd src/ConcourseTest
-    ./build.sh
+    export NUGET_PACKAGES=../../packages
+    dotnet restore
+    dotnet build
     cp -R packages ../test/
     cd ../..  
     cp -R * ../build/

@@ -7,10 +7,10 @@ image_resource:
     tag: 1.0.0-preview2-sdk
     
 inputs:
-  - name: build
+  - name: test
 
 run:
-  dir: build/test/ConcourseTest.UnitTests
+  dir: test
   path: sh
   args: 
   - -exc

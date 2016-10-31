@@ -12,7 +12,7 @@ jobs:
     - aggregate:
       - get: code
         trigger: true
-    - task: dotnet
+    - task: compile
       privileged: true
       file: code/pipeline/compile.yml
     - task: test

@@ -20,5 +20,5 @@ run:
   - |
     cd src/ConcourseTest
     ./build.sh
-    cd ..  
+    cd ../..  
     cp -R * ../build/

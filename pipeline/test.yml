@@ -16,5 +16,5 @@ run:
   - -exc
   - |
     ls -R
-#    export NUGET_PACKAGES=./packages
-#    dotnet test
+    export NUGET_PACKAGES=./packages
+    dotnet test

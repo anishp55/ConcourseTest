@@ -11,6 +11,7 @@ inputs:
 
 outputs:
   - name: build 
+  - name: test
 
 run:
   dir: code
@@ -20,5 +21,8 @@ run:
   - |
     cd src/ConcourseTest
     ./build.sh
+    cp -R packages ../test/
     cd ../..  
     cp -R * ../build/
+
+    cp -R test/ConcourseTest.UnitTests/* ../test/

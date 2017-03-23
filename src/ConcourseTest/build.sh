@@ -1,4 +1,6 @@
 #!/bin/bash
-export NUGET_PACKAGES=./packages
+rm -rf ./packages
+mkdir ./packages
+export NUGET_PACKAGES="`pwd`/packages"
 dotnet restore
 dotnet build
